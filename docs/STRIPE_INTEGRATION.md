@@ -50,12 +50,12 @@ graph TB
 # .env.local - Clés de test pour développement
 STRIPE_PUBLISHABLE_KEY=pk_test_YOUR_PUBLISHABLE_KEY_HERE
 STRIPE_SECRET_KEY=sk_test_YOUR_SECRET_KEY_HERE
-STRIPE_WEBHOOK_SECRET=whsec_your_webhook_secret_here
+STRIPE_WEBHOOK_SECRET=whsec_YOUR_WEBHOOK_SECRET_HERE
 
 # .env.prod - Clés de production (JAMAIS en VCS)
-STRIPE_PUBLISHABLE_KEY=pk_live_51234567890abcdef...
-STRIPE_SECRET_KEY=sk_live_51234567890abcdef...
-STRIPE_WEBHOOK_SECRET=whsec_1234567890abcdef...
+STRIPE_PUBLISHABLE_KEY=pk_live_YOUR_LIVE_PUBLISHABLE_KEY_HERE
+STRIPE_SECRET_KEY=sk_live_YOUR_LIVE_SECRET_KEY_HERE
+STRIPE_WEBHOOK_SECRET=whsec_YOUR_LIVE_WEBHOOK_SECRET_HERE
 ```
 
 > ⚠️ **Important** : Le fichier `.env.local` est dans `.gitignore` pour protéger vos clés
