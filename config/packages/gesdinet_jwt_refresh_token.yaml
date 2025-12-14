@@ -1,0 +1,4 @@
+gesdinet_jwt_refresh_token:
+    ttl: 604800  # 7 days
+    user_identity_field: email
+    return_expiration: true

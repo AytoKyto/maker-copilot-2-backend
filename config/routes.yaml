@@ -1,0 +1,11 @@
+controllers:
+    resource: ../src/Controller/
+    type: attribute
+
+api_login_check:
+    path: /api/login
+
+upload_product_image:
+    path: /api/products/{id}/image
+    controller: App\Controller\ProductImageController::uploadImage
+    methods: ['POST']

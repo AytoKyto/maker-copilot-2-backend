@@ -1,0 +1,14 @@
+stripe_webhook:
+    path: /stripe/webhook
+    controller: App\Controller\StripeWebhookController::handleWebhook
+    methods: [POST]
+
+subscription_success:
+    path: /api/subscriptions/success
+    controller: App\Controller\SubscriptionController::success
+    methods: [GET]
+
+subscription_cancel_page:
+    path: /api/subscriptions/cancel
+    controller: App\Controller\SubscriptionController::cancelPage
+    methods: [GET]

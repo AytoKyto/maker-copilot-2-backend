@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmation de réception</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #2F67F6;
+        }
+        p {
+            margin: 10px 0;
+        }
+        .data-field {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>Réception de retour Maker Copilot</h2>
+    <p>Voici les informationss envoyées :</p>
+    <p><span class="data-field">ID User :</span> {{ user_id }}</p>
+    <p><span class="data-field">Email :</span> {{ user_email }}</p>
+    <p><span class="data-field">Type de retour :</span> {{ type }}</p>
+    <p><span class="data-field">Message :</span> {{ message }}</p>
+</div>
+</body>
+</html>
